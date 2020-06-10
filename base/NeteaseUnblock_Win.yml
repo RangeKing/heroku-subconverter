@@ -1,0 +1,21 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+
+Proxy:
+- {type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_doe3, name: NeteaseUnblock, server: music.desperadoj.com, port: 30001}
+#- {type:socks5,name: UnblockNeteaseMusic, server: 106.52.127.72, port: 19951}
+
+
+Proxy Group:
+  - name: DomesticMedia
+    type: select
+    proxies:
+      - DIRECT
+      - 🇭🇰 HK 01
+Rule:
+  # Custom
+  - DOMAIN-SUFFIX,bilibili.com,DIRECT
