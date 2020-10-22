@@ -6,7 +6,7 @@ log-level: info
 external-controller: 127.0.0.1:9090
 
 Proxy:
-- {type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_vrfn, name: NeteaseUnblock, server: music.desperadoj.com, port: 30001}
+- {type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_emx2, name: NeteaseUnblock, server: music.desperadoj.com, port: 30001}
 #- {type:socks5,name: UnblockNeteaseMusic, server: 106.52.127.72, port: 19951}
 
 
