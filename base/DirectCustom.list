@@ -3,12 +3,10 @@
 # Media
 DOMAIN-KEYWORD,youku
 DOMAIN-SUFFIX,ddrk.me
-DOMAIN-SUFFIX,piaohua-kuyun.com
-DOMAIN-SUFFIX,meijubie.com
-DOMAIN-SUFFIX,cdnbye.com
 # Download
 DOMAIN-SUFFIX,tjupt.org
 DOMAIN-SUFFIX,byr.cn
 # Study
 DOMAIN-SUFFIX,cc98.org
 DOMAIN-SUFFIX,icourse163.org
+DOMAIN-SUFFIX,edu.cn
